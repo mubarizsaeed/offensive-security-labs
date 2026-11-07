@@ -1,14 +1,21 @@
-# Cybersecurity Labs - URI
+# Offensive Security Labs
 
-Welcome to the Cybersecurity Labs repository at URI! 
-## Lab List:
+Hands-on penetration testing labs I completed in the cybersecurity program at the University of Rhode Island. Each lab is a full writeup of the attack, the tools used, and the mitigation.
 
-1. [Configuring Firewall Rules](#configuring-firewall-rules)
-2. [Exploiting Vulnerabilities in DVWA and WannaCry](#exploiting-vulnerabilities-in-dvwa-and-wannacry)
-3. [Network Topologies Lab](#network-topologies-lab)
-4. [Scanning with nmap and Netcat](#scanning-with-nmap-and-netcat)
-5. [Traceroute and DNS Zone Transfer Attack using Dig](#traceroute-and-dns-zone-transfer-attack-using-dig)
-6. [Wifi Cracking With aircrack-ng](#wifi-cracking-with-aircrack-ng)
+**Tools used:** nmap, Netcat, aircrack-ng, dig, traceroute, DVWA, Wireshark, iptables/firewall rules
+
+| Lab | What I did |
+|-----|------------|
+| [Scanning with nmap and Netcat](#scanning-with-nmap-and-netcat) | Host discovery, port scanning, and service enumeration against a lab network |
+| [Exploiting Vulnerabilities in DVWA and WannaCry](#exploiting-vulnerabilities-in-dvwa-and-wannacry) | Exploited web app vulnerabilities in DVWA and analyzed the WannaCry ransomware exploit chain |
+| [Wifi Cracking With aircrack-ng](#wifi-cracking-with-aircrack-ng) | Captured WPA handshakes and cracked wireless passwords, then documented mitigations |
+| [Traceroute and DNS Zone Transfer Attack using Dig](#traceroute-and-dns-zone-transfer-attack-using-dig) | Mapped network paths and pulled full DNS records via a misconfigured zone transfer |
+| [Configuring Firewall Rules](#configuring-firewall-rules) | Wrote and tested firewall rulesets, with logging and troubleshooting |
+| [Network Topologies Lab](#network-topologies-lab) | Compared topologies and designed a secure network architecture |
+
+Each folder contains the full lab report. Everything was performed in an isolated lab environment.
+
+---
 
 ## Configuring Firewall Rules
 
